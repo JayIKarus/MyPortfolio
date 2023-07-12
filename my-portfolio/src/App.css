@@ -51,7 +51,7 @@
 }
 
 .text-accent {
-  background-color: #7477FF;
+  color: #7477FF;
 }
 
 .mobile-nav {
@@ -61,3 +61,19 @@
 nav li a {
   @apply px-4 py-5 text-lg;
 }
+
+nav li a:hover {
+    color: #7477FF;
+}
+
+/* .hero-img {
+  -webkit-box-shadow: inset 5px 5px 150px 5px #00001A; 
+  box-shadow: inset 5px 5px 20px 5px #00001A;
+  border-radius: 15% 15% 15% 15%;
+} */
+
+/* .hero-img:hover {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: none;
+} */
