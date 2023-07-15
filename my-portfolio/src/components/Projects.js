@@ -3,8 +3,6 @@ import selfReflection from "../assets/selfReflection.png";
 import firmwareInfirmary from "../assets/firmwareInfirmary.png";
 
 
-
-
 function Projects() {
     
     const projects = [
@@ -23,10 +21,10 @@ function Projects() {
     ];
 
     return (
-        <section className="bg-primary text-white px-5 py-32" id="projects">
+        <section className=" text-stone-200 px-5 py-32" id="projects">
             <div className="container mx-auto grid md:grid-cold-2 items-center md:justify-between">
                 <div className="about-info mb-5">
-                    <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2">
+                    <h2 className="tracking-tight text-6xl font-bold mb-5 border-b-[5px] w-[300px] border-stone-800 border-opacity-50 pb-1 drop-shadow-lg">
                         Projects
                     </h2>
                     <p className="pb-5">
@@ -42,7 +40,7 @@ function Projects() {
                         <a href={project.live} target="_blank">
                             <div className="relative" key={i}>
                                 <image src={project.img} alt={project.title} />
-                                <div className="flex absolute left-0 right-0 top-[20px] bottom-0 mx-auto w-[90%] h-[90%] bg-primary opacity-0 duration-500 justify-center flex-col hover:opacity-100">
+                                <div className="flex absolute left-0 right-0 top-[20px] bottom-0 mx-auto w-[90%]  h-32 bg-primary opacity-0 duration-500 justify-center flex-col hover:opacity-100">
                                     <p className="py-5 text-center font-bold px-2 text-white">
                                         {project.desc}
                                     </p>

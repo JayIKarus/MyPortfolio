@@ -11,6 +11,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #CCCCCC;
 }
 
 code {
@@ -18,7 +19,9 @@ code {
     monospace;
 }
 
-h1 { 
-  font-family: 'Pacifico', cursive;
+h1, h2, a { 
+  font-family: 'Cantarell', monospace;
   line-height: 1.5 !important;
 }
+
+

@@ -47,24 +47,39 @@
 }
 
 .bg-accent {
-  background-color: #7477FF;
+  background-color: #74BB77;
 }
 
 .text-accent {
-  color: #7477FF;
+  color: #74BB77;
 }
 
 .mobile-nav {
-  @apply block md:hidden fixed top-10 py-2 w-full h-full bg-gray-900 duration-500;
+  @apply block md:hidden fixed top-10 py-2 w-full h-full duration-500;
 }
 
 nav li a {
-  @apply px-4 py-5 text-lg;
+  @apply px-4 py-5 text-2xl;
 }
 
 nav li a:hover {
-    color: #7477FF;
+    color: #74BB77;
+    text-decoration: none;
 }
+
+body {
+  background-image: url("assets/portfolioBackground.png");
+  background-repeat: repeat-y;
+}
+
+a {
+  @apply text-2xl;
+}
+
+p {
+  @apply text-2xl;
+}
+
 
 /* .hero-img {
   -webkit-box-shadow: inset 5px 5px 150px 5px #00001A; 
