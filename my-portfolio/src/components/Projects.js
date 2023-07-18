@@ -34,7 +34,7 @@ function Projects() {
                 <div className="about-img"></div>
             </div>
 
-            <div className="projects container mx-auto grid md:grid-cols-3 gap-10">
+            <div className="projects container mx-auto grid md:grid-cols-2 gap-10">
                 {projects.map((project, i) => {
                     return (
                         <a href={project.live} target="_blank">
