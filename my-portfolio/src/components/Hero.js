@@ -16,7 +16,7 @@ function Hero() {
             <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
                 <div className="hero-info pb-5 md:pb-0">
                     <h1 className="text-4xl lg:text-8xl">
-                        Hi, <br /> I'm <motion.span className="text-accent text-9xl inline-block" whileHover={{ scale: 1.1}} initial={{ scale: 1}}>Jovan</motion.span>, <br />
+                        Hi, <br /> I'm <motion.span className="text-accent text-9xl inline-block duration-200" whileHover={{ scale: 1.1}} initial={{ scale: 1}}>Jovan</motion.span>, <br />
                         Developer and Designer
                     </h1>
 
@@ -79,11 +79,9 @@ function Hero() {
                     >
                     <a href={myResume} target="_blank">
                         <img 
-                            href={myResume}
                             src={JovanGlint}
                             alt="got my eyes on you"
                             className="lgw-[80%] ml-auto h-116 w-116 rounded-full drop-shadow-2xl hover:shadow-inner"
-                            target="_blank"
                         />
                     </a>
                 </motion.div>

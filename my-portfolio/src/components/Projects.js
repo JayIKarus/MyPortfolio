@@ -1,23 +1,41 @@
 import React, { useState } from "react";
-import selfReflection from "../assets/selfReflection.png";
-import firmwareInfirmary from "../assets/firmwareInfirmary.png";
+import SelfReflection from "../assets/SelfReflection.png";
+import KidIcarus from "../assets/KidIcarus_SS.png";
+import Tusk from "../assets/promoTusk_v2.png";
+import Unreal from "../assets/jmk555_FP_Sequence.mp4";
 
 
 function Projects() {
     
     const projects = [
         {
-            img: selfReflection,
-            title: "Self-Refelection",
+            img: SelfReflection,
+            title: "Self-Reflection",
             desc: " A Unity 3D Game Project made by Flaming Bee Studios. I served as the Art Director, UI/UX Developer and a Programmer.",
             live: "https://sites.google.com/view/flaming-bee-studios/home", 
+            isVideo: false
         },
         {
-            img: firmwareInfirmary,
+            img: Tusk,
             title: "Firmware Infirmary",
             desc: " A Unity 3D Senior Game Project made by Mudsoft. I served as the Audio Designer and Engineer using both Reaper and WWise.",
-            live: "https://mudsoft.itch.io/firmware-infirmary"
+            live: "https://mudsoft.itch.io/firmware-infirmary",
+            isVideo: false
         },
+        {
+            img: Unreal,
+            title: "Realtime Visualization in Unreal 5",
+            desc: " Alchemist Lab scene created in Unreal 5. Models made in Maya and textured in Substance Painter.",
+            live: "https://jovial.artstation.com/",
+            isVideo: true
+        },
+        {
+            img: KidIcarus,
+            title: "Kid Icarus Fan Project",
+            desc: " A Unity 3D Fan Game Project. A demake of the Nintendo 3ds game, Kid Icarus: Uprising reimagined as a 2D side-scroller. ",
+            live: "https://jayikarus.itch.io/project-icarus",
+            isVideo: false
+        }
     ];
 
     return (
@@ -33,19 +51,24 @@ function Projects() {
                 </div>
                 <div className="about-img"></div>
             </div>
-
+            
             <div className="projects container mx-auto grid md:grid-cols-2 gap-10">
                 {projects.map((project, i) => {
                     return (
                         <a href={project.live} target="_blank">
-                            <div className="relative group" key={i}>
-                                <img src={project.img} alt={project.title} className="opacity-100 duration-500 group-hover:opacity-25"/>
+                            <div className="relative group block drop-shadow-2xl" key={i}> 
+                                {project.isVideo ? 
+                                <video src={project.img} alt={project.title} className=" opacity-100 h-[600px] w-[800px] duration-500 group-hover:opacity-25 object-cover max-h-full max-w-full"/> :
+                                <img src={project.img} alt={project.title} className=" opacity-100 h-[600px] w-[800px] duration-500 group-hover:opacity-25 object-cover max-h-full max-w-full"/> 
+                                }
                                 <div className="flex absolute left-0 right-0 top-1/3 bottom-1/3 mx-auto w-[90%] h-32 opacity-0 duration-500 justify-center flex-col group-hover:opacity-100">
-                                    <p className="py-5 text-center font-bold px-2 text-white">
+                                    <h2 className="py-5 text-center font-bold px-2 text-white text-6xl">
+                                        {project.title}
+                                    </h2>
+                                    <p className="py-5 text-center px-2 text-white">
                                         {project.desc}
                                     </p>
                                 </div>
-                                
                             </div>
                         </a>
                     );
