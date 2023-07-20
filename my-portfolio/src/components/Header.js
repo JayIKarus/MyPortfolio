@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { motion } from "framer-motion";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 function Header() {
@@ -6,7 +7,7 @@ function Header() {
     const handleToggle = () => setToggle(!toggle);
 
     return (
-        <header className="flex justify-between px-5 py-2 bg-primary text-white fixed w-full z-10">
+        <header className="flex justify-between px-5 py-2 text-stone-200 fixed w-full z-10 hover:drop-shadow-xl  shadow-slate-800 bg-opacity-0 hover:bg-opacity-80 duration-500 bg-stone-800">
             <a href="/" className="logo text-2xl font-bold text-accent">
                 Jovan
             </a>
@@ -14,18 +15,18 @@ function Header() {
             {/*Desktop*/}
             <nav className="hidden md:block">
                 <ul className="flex">
-                    <li>
+                    <motion.li whileHover={{y: -3}}>
                         <a href="/#about">About</a>
-                    </li>
-                    <li>
+                    </motion.li>
+                    <motion.li whileHover={{y: -3}}>
                         <a href="/#projects">Projects</a>
-                    </li>
-                    <li>
-                        <a href="/#blog">Blog</a>
-                    </li>
-                    <li>
+                    </motion.li>
+                    <motion.li whileHover={{y: -3}}>
+                        <a href="/#skills">Skills</a>
+                    </motion.li>
+                    <motion.li whileHover={{y: -3}}>
                         <a href="/#contact">Contact</a>
-                    </li>
+                    </motion.li>
                 </ul>
             </nav>
 

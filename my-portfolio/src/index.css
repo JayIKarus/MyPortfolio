@@ -11,9 +11,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #CCCCCC;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1, h2, a { 
+  font-family: 'Cantarell', monospace;
+  line-height: 1.5 !important;
+}
+
+
