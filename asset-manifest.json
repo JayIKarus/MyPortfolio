@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.e6e496cf.css",
-    "main.js": "/MyPortfolio/static/js/main.7715974e.js",
+    "main.js": "/MyPortfolio/static/js/main.f221d001.js",
     "static/js/787.128fc6e9.chunk.js": "/MyPortfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/jmk555_FP_Sequence.mp4": "/MyPortfolio/static/media/jmk555_FP_Sequence.201340d07c1b35481cbe.mp4",
     "static/media/JovanGlint_NoBack.png": "/MyPortfolio/static/media/JovanGlint_NoBack.1336bf90bfa11b7783ed.png",
@@ -15,11 +15,11 @@
     "static/media/FI_Logo.svg": "/MyPortfolio/static/media/FI_Logo.85dc519234416fb2e8ef47fa28e36bd0.svg",
     "index.html": "/MyPortfolio/index.html",
     "main.e6e496cf.css.map": "/MyPortfolio/static/css/main.e6e496cf.css.map",
-    "main.7715974e.js.map": "/MyPortfolio/static/js/main.7715974e.js.map",
+    "main.f221d001.js.map": "/MyPortfolio/static/js/main.f221d001.js.map",
     "787.128fc6e9.chunk.js.map": "/MyPortfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6e496cf.css",
-    "static/js/main.7715974e.js"
+    "static/js/main.f221d001.js"
   ]
 }
