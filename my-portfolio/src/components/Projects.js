@@ -42,11 +42,11 @@ function Projects() {
         <section className=" text-stone-200 px-5 py-32" id="projects">
             <div className="container mx-auto grid md:grid-cold-2 items-center md:justify-between">
                 <div className="about-info mb-5">
-                    <h2 className="tracking-tight text-6xl font-bold mb-5 border-b-[5px] w-[300px] border-stone-800 border-opacity-50 pb-1 drop-shadow-lg">
+                    <h2 className="tracking-tight text-6xl font-bold mb-5 w-[300px] border-stone-800 border-opacity-50 pb-1 drop-shadow-lg">
                         Projects
                     </h2>
                     <p className="pb-5 w-3/6">
-                        Most of my recent projects have been games built in Unity, models, textures, and animations built in Maya and Substance Painter, and scenes created in Unreal. I'm always trying to something and create something cool.
+                        Most of my recent projects have been games built in Unity, models, textures, and animations built using Maya and Substance Painter as well as scenes created in Unreal.
                     </p>
                 </div>
                 <div className="about-img"></div>
