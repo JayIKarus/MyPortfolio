@@ -14,10 +14,10 @@ function About() {
                     </h2>
 
                     <p className="pb-5">
-                        Jovan Kouakou is a developer and designer of many things. From websites to applications to games, the my aim is always to deliver a memorable experience to any passerbys. Most recently, I've worked as an Audio Designer and Engineer as wells as an Art Director on two Unity game projects. 
+                        Jovan Kouakou is a developer and designer of many things. From websites to applications to games, his aim is always to deliver a memorable experience to anyone who experiences his content. Most recently, he's worked as an Audio Designer and Engineer as well as an Art Director on two Unity game projects. 
                     </p>
                     <p className="pb-5">
-                        In his free time, you can find Jovan practicing guitar, making sprites, playing Hearthstone, or lamenting over the books he'll never read.
+                        In his free time, you can find Jovan practicing guitar, making sprites and animations, playing Hearthstone, or lamenting over the books he'll never read.
                     </p>
                     <p className="pb-5">
                         Do yourself a favor and listen to Chasing Waves by Vista Kicks - it's actually the album of the summer.

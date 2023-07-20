@@ -21,9 +21,9 @@ function Header() {
                     <motion.li whileHover={{y: -3}}>
                         <a href="/#projects">Projects</a>
                     </motion.li>
-                    <motion.li whileHover={{y: -3}}>
+                    {/* <motion.li whileHover={{y: -3}}>
                         <a href="/#skills">Skills</a>
-                    </motion.li>
+                    </motion.li> */}
                     <motion.li whileHover={{y: -3}}>
                         <a href="/#contact">Contact</a>
                     </motion.li>
