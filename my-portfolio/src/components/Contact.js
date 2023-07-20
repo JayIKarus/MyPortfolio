@@ -21,7 +21,7 @@ function Contact() {
                         <textarea id="message" rows="6" className="text-md block w-full p-2.5 bg-stone-900 placeholder-stone-400 text-white drop-shadow-lg" placeholder="Wealth. Fame. Power. The man who had everything in this world..."></textarea>
                     </div>
                     <div className="container mx-auto flex flex-col items-center justify-center">
-                        <button type="submit" className="py-3 px-8 text-2xl font-medium text-center bg-accent border-2 border-[#74BB77] drop-shadow-xl hover:bg-transparent text-white sm:w-fit focus:ring-4 focus:outline-none focus:ring-primary-300 focus:ring-primary-800">Send</button>
+                        <button type="submit" className="py-3 px-8 text-2xl font-medium text-center bg-accent border-2 border-[#74BB77] drop-shadow-xl hover:bg-transparent duration-500 text-white sm:w-fit focus:ring-4 focus:outline-none focus:ring-primary-300 focus:ring-primary-800">Send</button>
                     </div>
                 </form>
             </div>

@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import { animate, motion } from "framer-motion";
 import JovanGlint from "../assets/JovanGlint_NoBack.png";
+import myResume from "../assets/Jovan_Resume_071823.pdf";
 
 import {
     AiOutlineInstagram,
     AiOutlineGithub,
-    AiFillLinkedin
+    AiFillLinkedin,
+    AiFillProfile
 } from "react-icons/ai";
 
 function Hero() {
@@ -22,6 +24,8 @@ function Hero() {
                         <motion.a whileHover={{y: -3}}
                             href="https://www.instagram.com/bon_kojo/"
                             className="pr-4 inline-block text-accent hover:text-stone-200"
+                            target="_blank"
+                            type="text/html"
                         >
                             {" "}
                             <AiOutlineInstagram size={40} /> {" "}
@@ -29,6 +33,8 @@ function Hero() {
                         <motion.a whileHover={{y: -3}}
                             href="https://github.com/JayIKarus"
                             className="pr-4 inline-block text-accent hover:text-stone-200"
+                            target="_blank"
+                            type="text/html"
                         >
                             {" "}
                             <AiOutlineGithub size={40} /> {" "}
@@ -36,15 +42,25 @@ function Hero() {
                         <motion.a whileHover={{y: -3}}
                             href="https://www.linkedin.com/in/jovan-kouakou/"
                             className="pr-4 inline-block text-accent hover:text-stone-200"
+                            target="_blank"
+                            type="text/html"
                         >
                             {" "}
                             <AiFillLinkedin size={40} /> {" "}
+                        </motion.a>
+                        <motion.a whileHover={{y: -3}}
+                            href={myResume}
+                            className="pr-4 inline-block text-accent hover:text-stone-200"
+                            target="_blank"
+                        >
+                            {" "}
+                            <AiFillProfile size={40} /> {" "}
                         </motion.a>
                     </div>
                     
                     <a 
                         href="/#projects"
-                        className="btn bg-accent border-2 border-[#74BB77] text-stone-200 px-6 py-3 drop-shadow-xl hover:bg-transparent"
+                        className="btn bg-accent border-2 border-[#74BB77] text-stone-200 px-6 py-3 drop-shadow-xl hover:bg-transparent duration-500"
                     >
                         See Projects
                     </a>
@@ -61,11 +77,15 @@ function Hero() {
                         repeat: Infinity,
                         }}
                     >
-                    <img 
-                        src={JovanGlint}
-                        alt="got my eyes on you"
-                        className="lgw-[80%] ml-auto h-116 w-116 rounded-full drop-shadow-2xl hover:shadow-inner"
-                    />
+                    <a href={myResume} target="_blank">
+                        <img 
+                            href={myResume}
+                            src={JovanGlint}
+                            alt="got my eyes on you"
+                            className="lgw-[80%] ml-auto h-116 w-116 rounded-full drop-shadow-2xl hover:shadow-inner"
+                            target="_blank"
+                        />
+                    </a>
                 </motion.div>
             </div>
         </section>
