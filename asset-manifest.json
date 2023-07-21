@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.e6e496cf.css",
-    "main.js": "/MyPortfolio/static/js/main.f221d001.js",
-    "static/js/787.128fc6e9.chunk.js": "/MyPortfolio/static/js/787.128fc6e9.chunk.js",
-    "static/media/jmk555_FP_Sequence.mp4": "/MyPortfolio/static/media/jmk555_FP_Sequence.201340d07c1b35481cbe.mp4",
-    "static/media/JovanGlint_NoBack.png": "/MyPortfolio/static/media/JovanGlint_NoBack.1336bf90bfa11b7783ed.png",
-    "static/media/promoTusk_v2.png": "/MyPortfolio/static/media/promoTusk_v2.f178d5a3dc605f1aadab.png",
-    "static/media/COS_LOGO.png": "/MyPortfolio/static/media/COS_LOGO.e557a065fdc1fe395f44.png",
-    "static/media/portfolioBackground.png": "/MyPortfolio/static/media/portfolioBackground.9899a42b48a2f9dd4acf.png",
-    "static/media/SelfReflection.png": "/MyPortfolio/static/media/SelfReflection.6bb9af784d3e8ff5ba18.png",
-    "static/media/KidIcarus_SS.png": "/MyPortfolio/static/media/KidIcarus_SS.ea444371fe5d1c3b7b7c.png",
-    "static/media/yes.png": "/MyPortfolio/static/media/yes.ca6c792df4aa9589944c.png",
-    "static/media/Jovan_Resume_071823.pdf": "/MyPortfolio/static/media/Jovan_Resume_071823.cb9a5740da9494da779d.pdf",
-    "static/media/FI_Logo.svg": "/MyPortfolio/static/media/FI_Logo.85dc519234416fb2e8ef47fa28e36bd0.svg",
-    "index.html": "/MyPortfolio/index.html",
-    "main.e6e496cf.css.map": "/MyPortfolio/static/css/main.e6e496cf.css.map",
-    "main.f221d001.js.map": "/MyPortfolio/static/js/main.f221d001.js.map",
-    "787.128fc6e9.chunk.js.map": "/MyPortfolio/static/js/787.128fc6e9.chunk.js.map"
+    "main.css": "/static/css/main.6126503c.css",
+    "main.js": "/static/js/main.4f5be36c.js",
+    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/jmk555_FP_Sequence.mp4": "/static/media/jmk555_FP_Sequence.201340d07c1b35481cbe.mp4",
+    "static/media/JovanGlint_NoBack.png": "/static/media/JovanGlint_NoBack.1336bf90bfa11b7783ed.png",
+    "static/media/promoTusk_v2.png": "/static/media/promoTusk_v2.f178d5a3dc605f1aadab.png",
+    "static/media/COS_LOGO.png": "/static/media/COS_LOGO.e557a065fdc1fe395f44.png",
+    "static/media/portfolioBackground.png": "/static/media/portfolioBackground.9899a42b48a2f9dd4acf.png",
+    "static/media/SelfReflection.png": "/static/media/SelfReflection.6bb9af784d3e8ff5ba18.png",
+    "static/media/KidIcarus_SS.png": "/static/media/KidIcarus_SS.ea444371fe5d1c3b7b7c.png",
+    "static/media/yes.png": "/static/media/yes.ca6c792df4aa9589944c.png",
+    "static/media/Jovan_Resume_071823.pdf": "/static/media/Jovan_Resume_071823.cb9a5740da9494da779d.pdf",
+    "static/media/FI_Logo.svg": "/static/media/FI_Logo.85dc519234416fb2e8ef47fa28e36bd0.svg",
+    "index.html": "/index.html",
+    "main.6126503c.css.map": "/static/css/main.6126503c.css.map",
+    "main.4f5be36c.js.map": "/static/js/main.4f5be36c.js.map",
+    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6e496cf.css",
-    "static/js/main.f221d001.js"
+    "static/css/main.6126503c.css",
+    "static/js/main.4f5be36c.js"
   ]
 }
