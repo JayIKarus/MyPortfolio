@@ -3,7 +3,8 @@ import SelfReflection from "../assets/SelfReflection.png";
 import KidIcarus from "../assets/KidIcarus_SS.png";
 import Tusk from "../assets/promoTusk_v2.png";
 import Unreal from "../assets/jmk555_FP_Sequence.mp4";
-
+import sciRECT from "../assets/sciRECT.png";
+import OESPage from "../assets/OESPage.jpg";
 
 function Projects() {
     
@@ -11,29 +12,43 @@ function Projects() {
         {
             img: SelfReflection,
             title: "Self-Reflection",
-            desc: " A Unity 3D Game Project made by Flaming Bee Studios. I served as the Art Director, UI/UX Developer and a Programmer.",
+            desc: "A Unity 3D Game Project made by Flaming Bee Studios. I served as the Art Director, UI/UX Developer and a Programmer.",
             live: "https://sites.google.com/view/flaming-bee-studios/home", 
             isVideo: false
         },
         {
             img: Tusk,
             title: "Firmware Infirmary",
-            desc: " A Unity 3D Senior Game Project made by Mudsoft. I served as the Audio Designer and Engineer using both Reaper and WWise.",
+            desc: "A Unity 3D Senior Game Project made by Mudsoft. I served as the Audio Designer and Engineer using both Reaper and WWise.",
             live: "https://mudsoft.itch.io/firmware-infirmary",
             isVideo: false
         },
         {
             img: Unreal,
             title: "Realtime Visualization in Unreal 5",
-            desc: " Alchemist Lab scene created in Unreal 5. Models made in Maya and textured in Substance Painter.",
-            live: "https://jovial.artstation.com/",
+            desc: "Alchemist Lab scene created in Unreal 5. Models made in Maya and textured in Substance Painter.",
+            live: "https://www.artstation.com/artwork/Ke4l5B",
             isVideo: true
         },
         {
             img: KidIcarus,
             title: "Kid Icarus Fan Project",
-            desc: " A Unity 3D Fan Game Project. A demake of the Nintendo 3ds game, Kid Icarus: Uprising reimagined as a 2D side-scroller. ",
+            desc: "A Unity 3D Fan Game Project. A demake of the Nintendo 3ds game, Kid Icarus: Uprising reimagined as a 2D side-scroller.",
             live: "https://jayikarus.itch.io/project-icarus",
+            isVideo: false
+        },
+        {
+            img: sciRECT,
+            title: "sciRECT",
+            desc: "UI/UX Project for a lab sciences VR/Web application. This platform is meant for use by students and educators.",
+            live: "https://www.artstation.com/artwork/el9BrG",
+            isVideo: false
+        },
+        {
+            img: OESPage,
+            title: "OES UI/UX Prototype",
+            desc: "UI/UX project for an Upwork Client.",
+            live: "https://www.artstation.com/artwork/BXnrO4",
             isVideo: false
         }
     ];
@@ -58,7 +73,7 @@ function Projects() {
                         <a href={project.live} target="_blank">
                             <div className="relative group block drop-shadow-2xl" key={i}> 
                                 {project.isVideo ? 
-                                <video src={project.img} alt={project.title} className=" opacity-100 h-[600px] w-[800px] duration-500 group-hover:opacity-25 object-cover max-h-full max-w-full"/> :
+                                <video src={project.img} alt={project.title} className=" opacity-100 h-[600px] w-[800px] duration-500 group-hover:opacity-25 object-cover max-h-full max-w-full" autoPlay/> :
                                 <img src={project.img} alt={project.title} className=" opacity-100 h-[600px] w-[800px] duration-500 group-hover:opacity-25 object-cover max-h-full max-w-full"/> 
                                 }
                                 <div className="flex absolute left-0 right-0 top-1/3 bottom-1/3 mx-auto w-[90%] h-32 opacity-0 duration-500 justify-center flex-col group-hover:opacity-100">
