@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.bfc09290.css",
-    "main.js": "./static/js/main.88600040.js",
+    "main.css": "./static/css/main.cb0de412.css",
+    "main.js": "./static/js/main.bf7dd6d3.js",
     "static/js/787.128fc6e9.chunk.js": "./static/js/787.128fc6e9.chunk.js",
     "static/media/jmk555_FP_Sequence.mp4": "./static/media/jmk555_FP_Sequence.201340d07c1b35481cbe.mp4",
     "static/media/JovanGlint_NoBack.png": "./static/media/JovanGlint_NoBack.1336bf90bfa11b7783ed.png",
     "static/media/promoTusk_v2.png": "./static/media/promoTusk_v2.f178d5a3dc605f1aadab.png",
     "static/media/COS_LOGO.png": "./static/media/COS_LOGO.e557a065fdc1fe395f44.png",
     "static/media/portfolioBackground.png": "./static/media/portfolioBackground.9899a42b48a2f9dd4acf.png",
-    "static/media/SelfReflection.png": "./static/media/SelfReflection.6bb9af784d3e8ff5ba18.png",
+    "static/media/selfReflection.png": "./static/media/selfReflection.6bb9af784d3e8ff5ba18.png",
     "static/media/KidIcarus_SS.png": "./static/media/KidIcarus_SS.ea444371fe5d1c3b7b7c.png",
     "static/media/yes.png": "./static/media/yes.ca6c792df4aa9589944c.png",
     "static/media/sciRECT.png": "./static/media/sciRECT.145cf3103478f9574d4b.png",
@@ -16,12 +16,12 @@
     "static/media/FI_Logo.svg": "./static/media/FI_Logo.85dc519234416fb2e8ef47fa28e36bd0.svg",
     "static/media/OESPage.jpg": "./static/media/OESPage.e1228fdc2caa6601a65b.jpg",
     "index.html": "./index.html",
-    "main.bfc09290.css.map": "./static/css/main.bfc09290.css.map",
-    "main.88600040.js.map": "./static/js/main.88600040.js.map",
+    "main.cb0de412.css.map": "./static/css/main.cb0de412.css.map",
+    "main.bf7dd6d3.js.map": "./static/js/main.bf7dd6d3.js.map",
     "787.128fc6e9.chunk.js.map": "./static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bfc09290.css",
-    "static/js/main.88600040.js"
+    "static/css/main.cb0de412.css",
+    "static/js/main.bf7dd6d3.js"
   ]
 }
