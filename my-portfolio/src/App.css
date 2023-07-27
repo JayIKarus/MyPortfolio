@@ -69,7 +69,7 @@ nav li a:hover {
 
 body {
   background-image: url("assets/portfolioBackground.png");
-  background-repeat: repeat-y;
+  background-repeat: repeat;
 }
 
 a {

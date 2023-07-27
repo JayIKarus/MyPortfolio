@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import SelfReflection from "../assets/SelfReflection.png";
+import SelfReflection from "../assets/selfReflection.png";
 import KidIcarus from "../assets/KidIcarus_SS.png";
 import Tusk from "../assets/promoTusk_v2.png";
 import Unreal from "../assets/jmk555_FP_Sequence.mp4";
@@ -60,21 +60,21 @@ function Projects() {
                     <h2 className="tracking-tight text-6xl font-bold mb-5 w-[300px] border-stone-800 border-opacity-50 pb-1 drop-shadow-lg">
                         Projects
                     </h2>
-                    <p className="pb-5 w-3/6">
+                    <p className="pb-10 w-3/6">
                         Most of my recent projects have been games built in Unity, models, textures, and animations built using Maya and Substance Painter as well as scenes created in Unreal.
                     </p>
                 </div>
                 <div className="about-img"></div>
             </div>
             
-            <div className="projects container mx-auto grid md:grid-cols-2 gap-10">
+            <div className="projects container mx-auto grid md:grid-cols-2 gap-6">
                 {projects.map((project, i) => {
                     return (
                         <a href={project.live} target="_blank">
-                            <div className="relative group block drop-shadow-2xl" key={i}> 
+                            <div className="relative group block drop-shadow-md shadow-md shadow-stone-800" key={i}> 
                                 {project.isVideo ? 
-                                <video src={project.img} alt={project.title} className=" opacity-100 h-[600px] w-[800px] duration-500 group-hover:opacity-25 object-cover max-h-full max-w-full" autoPlay loop/> :
-                                <img src={project.img} alt={project.title} className=" opacity-100 h-[600px] w-[800px] duration-500 group-hover:opacity-25 object-cover max-h-full max-w-full"/> 
+                                <video src={project.img} alt={project.title} className=" opacity-100 h-[600px] w-[800px] duration-500 group-hover:opacity-25 object-cover max-h-full max-w-full rounded" autoPlay loop/> :
+                                <img src={project.img} alt={project.title} className=" opacity-100 h-[600px] w-[800px] duration-500 group-hover:opacity-25 object-cover max-h-full max-w-full rounded"/> 
                                 }
                                 <div className="flex absolute left-0 right-0 top-1/3 bottom-1/3 mx-auto w-[90%] h-32 opacity-0 duration-500 justify-center flex-col group-hover:opacity-100">
                                     <h2 className="py-5 text-center font-bold px-2 text-white text-6xl">
