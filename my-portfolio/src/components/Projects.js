@@ -73,7 +73,7 @@ function Projects() {
                         <a href={project.live} target="_blank">
                             <div className="relative group block drop-shadow-2xl" key={i}> 
                                 {project.isVideo ? 
-                                <video src={project.img} alt={project.title} className=" opacity-100 h-[600px] w-[800px] duration-500 group-hover:opacity-25 object-cover max-h-full max-w-full" autoPlay/> :
+                                <video src={project.img} alt={project.title} className=" opacity-100 h-[600px] w-[800px] duration-500 group-hover:opacity-25 object-cover max-h-full max-w-full" autoPlay loop/> :
                                 <img src={project.img} alt={project.title} className=" opacity-100 h-[600px] w-[800px] duration-500 group-hover:opacity-25 object-cover max-h-full max-w-full"/> 
                                 }
                                 <div className="flex absolute left-0 right-0 top-1/3 bottom-1/3 mx-auto w-[90%] h-32 opacity-0 duration-500 justify-center flex-col group-hover:opacity-100">
