@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "./static/css/main.2d58000a.css",
-    "main.js": "./static/js/main.aa418f2e.js",
+    "main.css": "./static/css/main.6dc473bf.css",
+    "main.js": "./static/js/main.5ddf1232.js",
     "static/js/787.128fc6e9.chunk.js": "./static/js/787.128fc6e9.chunk.js",
     "static/media/jmk555_FP_Sequence.mp4": "./static/media/jmk555_FP_Sequence.201340d07c1b35481cbe.mp4",
+    "static/media/JovanBlossoms.png": "./static/media/JovanBlossoms.4a5d90f9c77a34746485.png",
+    "static/media/MinePig_Anim2_1.mp4": "./static/media/MinePig_Anim2_1.e1a68147c7b65a54113d.mp4",
     "static/media/JovanGlint_NoBack.png": "./static/media/JovanGlint_NoBack.1336bf90bfa11b7783ed.png",
     "static/media/promoTusk_v2.png": "./static/media/promoTusk_v2.f178d5a3dc605f1aadab.png",
     "static/media/COS_LOGO.png": "./static/media/COS_LOGO.e557a065fdc1fe395f44.png",
@@ -16,12 +18,12 @@
     "static/media/FI_Logo.svg": "./static/media/FI_Logo.85dc519234416fb2e8ef47fa28e36bd0.svg",
     "static/media/OESPage.jpg": "./static/media/OESPage.e1228fdc2caa6601a65b.jpg",
     "index.html": "./index.html",
-    "main.2d58000a.css.map": "./static/css/main.2d58000a.css.map",
-    "main.aa418f2e.js.map": "./static/js/main.aa418f2e.js.map",
+    "main.6dc473bf.css.map": "./static/css/main.6dc473bf.css.map",
+    "main.5ddf1232.js.map": "./static/js/main.5ddf1232.js.map",
     "787.128fc6e9.chunk.js.map": "./static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d58000a.css",
-    "static/js/main.aa418f2e.js"
+    "static/css/main.6dc473bf.css",
+    "static/js/main.5ddf1232.js"
   ]
 }
