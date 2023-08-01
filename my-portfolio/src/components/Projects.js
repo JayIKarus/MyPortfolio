@@ -5,6 +5,8 @@ import Tusk from "../assets/promoTusk_v2.png";
 import Unreal from "../assets/jmk555_FP_Sequence.mp4";
 import sciRECT from "../assets/sciRECT.png";
 import OESPage from "../assets/OESPage.jpg";
+import MinePig from "../assets/MinePig_Anim2_1.mp4";
+import Bowser from "../assets/DragonDance.png";
 
 function Projects() {
     
@@ -31,13 +33,6 @@ function Projects() {
             isVideo: true
         },
         {
-            img: KidIcarus,
-            title: "Kid Icarus Fan Project",
-            desc: "A Unity 3D Fan Game Project. A demake of the Nintendo 3ds game, Kid Icarus: Uprising reimagined as a 2D side-scroller.",
-            live: "https://jayikarus.itch.io/project-icarus",
-            isVideo: false
-        },
-        {
             img: sciRECT,
             title: "sciRECT",
             desc: "UI/UX Project for a lab sciences VR/Web application. This platform is meant for use by students and educators.",
@@ -45,42 +40,63 @@ function Projects() {
             isVideo: false
         },
         {
+            img: MinePig,
+            title: "Minecraft Art Gallery Animation",
+            desc: "Animation created and rendered in Maya. Upscaling and creation of textures done in Substance Painter.",
+            live: "https://www.artstation.com/artwork/JvkaxR",
+            isVideo: true
+        },
+        {
             img: OESPage,
             title: "OES UI/UX Prototype",
-            desc: "UI/UX project for an Upwork Client.",
+            desc: "UI/UX project for an Upwork Client using their branding guidelines.",
             live: "https://www.artstation.com/artwork/BXnrO4",
             isVideo: false
-        }
+        },
+        {
+            img: KidIcarus,
+            title: "Kid Icarus Fan Project",
+            desc: "A Unity 3D Fan Game Project. A demake of the Nintendo 3ds game, Kid Icarus: Uprising reimagined as a 2D side-scroller.",
+            live: "https://jayikarus.itch.io/project-icarus",
+            isVideo: false
+        },
+        {
+            img: Bowser,
+            title: "DGA Graphics",
+            desc: "A sample of graphics made for the Drexel Gaming Association as a Marketing Officer.",
+            live: "https://www.artstation.com/artwork/6NPRmO",
+            isVideo: false
+        },
     ];
 
     return (
-        <section className=" text-stone-200 px-5 py-32" id="projects">
-            <div className="container mx-auto grid md:grid-cold-2 items-center md:justify-between">
-                <div className="about-info mb-5">
-                    <h2 className="tracking-tight text-6xl font-bold mb-5 w-[300px] border-stone-800 border-opacity-50 pb-1 drop-shadow-lg">
-                        Projects
-                    </h2>
-                    <p className="pb-10 w-3/6">
-                        Most of my recent projects have been games built in Unity, models, textures, and animations built using Maya and Substance Painter as well as scenes created in Unreal.
-                    </p>
-                </div>
-                <div className="about-img"></div>
+        <section className=" text-stone-200 px-5 py-8 lg:py-32" id="projects">
+            <div className="mx-auto">
+                {/* <div className="about-info mb-5 mx-auto"> */}
+                <h2 className="mb-4 text-6xl tracking-tight font-extrabold text-center text-stone-200 drop-shadow-lg">
+                    Projects
+                </h2>
+                <p className="pb-10 mx-auto md:w-4/6 mb-8 lg:mb-16 font-light text-center text-stone-300">
+                    Most of my recent projects have been games built in Unity, models, textures, and animations built using Maya and Substance Painter as well as scenes created in Unreal.
+                </p>
+                {/* </div> */}
+                {/* <div className="about-img"></div> */}
             </div>
             
-            <div className="projects container mx-auto grid md:grid-cols-2 gap-6">
+            <div className="projects container mx-auto grid justify-stretch md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {projects.map((project, i) => {
                     return (
-                        <a href={project.live} target="_blank">
+                        <a href={project.live} target="_blank" rel="noreferrer">
                             <div className="relative group block drop-shadow-md shadow-md shadow-stone-800" key={i}> 
                                 {project.isVideo ? 
-                                <video src={project.img} alt={project.title} className=" opacity-100 h-[600px] w-[800px] duration-500 group-hover:opacity-25 object-cover max-h-full max-w-full rounded" autoPlay loop/> :
+                                <video src={project.img} alt={project.title} className=" opacity-100 h-[600px] w-[800px] duration-500 group-hover:opacity-25 object-cover max-h-full max-w-full rounded" autoPlay loop muted/> :
                                 <img src={project.img} alt={project.title} className=" opacity-100 h-[600px] w-[800px] duration-500 group-hover:opacity-25 object-cover max-h-full max-w-full rounded"/> 
                                 }
                                 <div className="flex absolute left-0 right-0 top-1/3 bottom-1/3 mx-auto w-[90%] h-32 opacity-0 duration-500 justify-center flex-col group-hover:opacity-100">
-                                    <h2 className="py-5 text-center font-bold px-2 text-white text-6xl">
+                                    <h2 className="py-5 text-center font-bold px-2 text-stone-200 2xl:text-6xl lg:text-4xl md:text-3xl xl:text-5xl text-5xl">
                                         {project.title}
                                     </h2>
-                                    <p className="py-5 text-center px-2 text-white">
+                                    <p className="py-5 text-center px-2 text-stone-200">
                                         {project.desc}
                                     </p>
                                 </div>

@@ -55,7 +55,7 @@
 }
 
 .mobile-nav {
-  @apply block md:hidden fixed top-10 py-2 w-full h-full duration-500;
+  @apply block md:hidden fixed top-12 py-2 w-full h-36 duration-500 bg-stone-800 bg-opacity-80;
 }
 
 nav li a {
