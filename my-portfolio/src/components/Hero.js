@@ -27,6 +27,7 @@ function Hero() {
                             className="pr-4 inline-block text-accent hover:text-stone-200"
                             target="_blank"
                             type="text/html"
+                            rel="noreferrer"
                         >
                             {" "}
                             <AiOutlineInstagram size={40} /> {" "}
@@ -36,6 +37,7 @@ function Hero() {
                             className="pr-4 inline-block text-accent hover:text-stone-200"
                             target="_blank"
                             type="text/html"
+                            rel="noreferrer"
                         >
                             {" "}
                             <AiOutlineGithub size={40} /> {" "}
@@ -45,6 +47,7 @@ function Hero() {
                             className="pr-4 inline-block text-accent hover:text-stone-200"
                             target="_blank"
                             type="text/html"
+                            rel="noreferrer"
                         >
                             {" "}
                             <AiFillLinkedin size={40} /> {" "}
@@ -53,6 +56,7 @@ function Hero() {
                             href={myResume}
                             className="pr-4 inline-block text-accent hover:text-stone-200"
                             target="_blank"
+                            rel="noreferrer"
                         >
                             {" "}
                             <AiFillProfile size={40} /> {" "}

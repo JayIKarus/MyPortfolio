@@ -26,17 +26,17 @@ function About() {
                 <div className="container grid md:grid-flow-row md:grid-cols-3 items-center justify-center md:justify-between space-y-8 " >
                     <div className="lg:-right-16 relative opacity-50 hover:opacity-100 duration-500 ">
                         <a href="https://soundcloud.com/jovan-jovial/sets/firmware-infirmary-official-soundtrack" target="_blank" rel="noreferrer">
-                            <img className="lgw-[80%] w-64 h-64 drop-shadow-2xl rounded-full shadow-md shadow-stone-800 object-cover" src={FI_Logo} alt="Firmware Infirmary Soundtrack"/>
+                            <img className="lgw-[80%] w-64 h-64 drop-shadow-xl rounded-full shadow-md shadow-stone-800 object-cover" src={FI_Logo} alt="Firmware Infirmary Soundtrack"/>
                         </a>
                     </div>
                     <div className="lg:top-64 relative opacity-50 hover:opacity-100 duration-500">
                         <a href="https://podcasters.spotify.com/pod/show/coreofscore" target="_blank" rel="noreferrer">
-                            <img className="lgw-[80%] w-64 h-64 drop-shadow-2xl rounded-full shadow-md shadow-stone-800 object-cover" src={COS_Logo} alt="Core of Score Podcast"/>
+                            <img className="lgw-[80%] w-64 h-64 drop-shadow-xl rounded-full shadow-md shadow-stone-800 object-cover" src={COS_Logo} alt="Core of Score Podcast"/>
                         </a>
                     </div>
                     <div className="lg:right-16 relative opacity-50 hover:opacity-100 duration-500">
                         <a href="https://open.spotify.com/user/12162886651" target="_blank" rel="noreferrer">
-                            <img className="lgw-[80%] w-64 h-64 drop-shadow-2xl rounded-full shadow-md shadow-stone-800 object-cover" src={Yes} alt="Spotify Profile"/>
+                            <img className="lgw-[80%] w-64 h-64 drop-shadow-xl rounded-full shadow-md shadow-stone-800 object-cover" src={Yes} alt="Spotify Profile"/>
                         </a>
                     </div>
                 </div>

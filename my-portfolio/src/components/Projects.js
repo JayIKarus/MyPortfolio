@@ -87,7 +87,7 @@ function Projects() {
                 {projects.map((project, i) => {
                     return (
                         <a href={project.live} target="_blank" rel="noreferrer">
-                            <div className="relative group block drop-shadow-md shadow-md shadow-stone-800" key={i}> 
+                            <div className="relative group block drop-shadow-xl shadow-md shadow-stone-800" key={i}> 
                                 {project.isVideo ? 
                                 <video src={project.img} alt={project.title} className=" opacity-100 h-[600px] w-[800px] duration-500 group-hover:opacity-25 object-cover max-h-full max-w-full rounded" autoPlay loop muted/> :
                                 <img src={project.img} alt={project.title} className=" opacity-100 h-[600px] w-[800px] duration-500 group-hover:opacity-25 object-cover max-h-full max-w-full rounded"/> 

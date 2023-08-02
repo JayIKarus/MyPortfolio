@@ -64,9 +64,9 @@ function Header() {
                     <motion.li whileHover={{y: -3}}>
                         <a href="/#projects">Projects</a>
                     </motion.li>
-                    {/* <motion.li whileHover={{y: -3}}>
+                    <motion.li whileHover={{y: -3}}>
                         <a href="/#skills">Skills</a>
-                    </motion.li> */}
+                    </motion.li>
                     <motion.li whileHover={{y: -3}}>
                         <a href="/#contact">Contact</a>
                     </motion.li>
@@ -82,9 +82,9 @@ function Header() {
                     <li>
                         <a href="/#projects" className=" drop-shadow-[0_1px_0.6px_rgba(0,40,0,0.6)]">Projects</a>
                     </li>
-                    {/* <li>
-                        <a href="/#skills">Blog</a>
-                    </li> */}
+                    <li>
+                        <a href="/#skills" className=" drop-shadow-[0_1px_0.6px_rgba(0,40,0,0.6)]">Skills</a>
+                    </li>
                     <li>
                         <a href="/#contact" className=" drop-shadow-[0_1px_0.6px_rgba(0,40,0,0.6)]">Contact</a>
                     </li>
