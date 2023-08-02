@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import SelfReflection from "../assets/selfReflection.png";
 import KidIcarus from "../assets/KidIcarus_SS.png";
 import Tusk from "../assets/promoTusk_v2.png";

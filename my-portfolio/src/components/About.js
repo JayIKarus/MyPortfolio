@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import {motion} from "framer-motion";
 import FI_Logo from "../assets/FI_Logo.svg"
 import COS_Logo from "../assets/COS_LOGO.png"

@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import { animate, motion } from "framer-motion";
+import React from "react";
+import { motion } from "framer-motion";
 import JovanGlint from "../assets/JovanGlint_NoBack.png";
 import myResume from "../assets/Jovan_Resume_071823.pdf";
-import blossom from "../assets/JovanBlossoms.png";
+// import blossom from "../assets/JovanBlossoms.png";
 
 import {
     AiOutlineInstagram,
@@ -82,7 +82,7 @@ function Hero() {
                         repeat: Infinity,
                         }}
                     >
-                    <a href={myResume} target="_blank">
+                    <a href={myResume} target="_blank" rel="noreferrer">
                         <img 
                             src={JovanGlint}
                             alt="got my eyes on you"

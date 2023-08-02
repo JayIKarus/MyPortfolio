@@ -1,5 +1,5 @@
-import React, { useState, useRef } from "react";
-import {animate, motion} from "framer-motion";
+import React, { useRef } from "react";
+import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
 function Contact() {
@@ -20,13 +20,13 @@ function Contact() {
             });
     };
 
-    function showAlert() {
-        return (
-            <div className="bg-stone-800 opacity-80 text-green-300 text-center text-6xl fixed" role="alert">
-                <strong>Thanks for your response!</strong>
-            </div>
-        );
-    }
+    // function showAlert() {
+    //     return (
+    //         <div className="bg-stone-800 opacity-80 text-green-300 text-center text-6xl fixed" role="alert">
+    //             <strong>Thanks for your response!</strong>
+    //         </div>
+    //     );
+    // }
 
     return (
         <section>
