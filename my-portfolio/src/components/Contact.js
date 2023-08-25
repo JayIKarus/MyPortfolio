@@ -31,7 +31,7 @@ function Contact() {
     return (
         <section>
             <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md" id="contact">
-                <h2 className="mb-4 text-6xl tracking-tight font-extrabold text-center text-stone-200 drop-shadow-lg">Contact Me</h2>
+                <h2 className="mb-4 text-6xl tracking-tight font-extrabold text-center text-stone-200 drop-shadow-lg">Let's Talk</h2>
                 <p className="mb-8 lg:mb-16 font-light text-center text-stone-200 sm:text-xl">Send me anything from jobs to cool art and music. Anything you want to share is welcome. Hope your day is better than before :)</p>
                 <form action="#" ref={form} onSubmit={sendEmail} className="space-y-8">
                     <div>

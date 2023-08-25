@@ -1,15 +1,19 @@
 import React from "react";
 import { motion } from "framer-motion";
-import JovanGlint from "../assets/JovanGlint_NoBack.png";
+// import JovanGlint from "../assets/JovanGlint_NoBack.webp";
 import myResume from "../assets/Jovan_Resume_071823.pdf";
-// import blossom from "../assets/JovanBlossoms.png";
+import blossom from "../assets/JovanBlossomPFP.webp";
 
 import {
     AiOutlineInstagram,
     AiOutlineGithub,
     AiFillLinkedin,
+    AiFillBehanceSquare,
     AiFillProfile
 } from "react-icons/ai";
+import {
+    SiArtstation
+} from "react-icons/si";
 
 function Hero() {
     return (
@@ -53,6 +57,26 @@ function Hero() {
                             <AiFillLinkedin size={40} /> {" "}
                         </motion.a>
                         <motion.a whileHover={{y: -3}}
+                            href="https://www.behance.net/jovankouakou"
+                            className="pr-4 inline-block text-accent hover:text-stone-200"
+                            target="_blank"
+                            type="text/html"
+                            rel="noreferrer"
+                        >
+                            {" "}
+                            <AiFillBehanceSquare size={40} /> {" "}
+                        </motion.a>
+                        <motion.a whileHover={{y: -3}}
+                            href="https://www.artstation.com/jovial"
+                            className="pr-4 inline-block text-accent hover:text-stone-200"
+                            target="_blank"
+                            type="text/html"
+                            rel="noreferrer"
+                        >
+                            {" "}
+                            <SiArtstation size={38} /> {" "}
+                        </motion.a>
+                        <motion.a whileHover={{y: -3}}
                             href={myResume}
                             className="pr-4 inline-block text-accent hover:text-stone-200"
                             target="_blank"
@@ -64,10 +88,10 @@ function Hero() {
                     </div>
                     
                     <a 
-                        href="/#projects"
+                        href="/#contact"
                         className="btn bg-accent border-2 border-[#74BB77] text-stone-200 px-6 py-3 drop-shadow-xl hover:bg-transparent duration-500"
                     >
-                        See Projects
+                        Contact Me
                     </a>
                 </div>
 
@@ -84,7 +108,7 @@ function Hero() {
                     >
                     <a href={myResume} target="_blank" rel="noreferrer">
                         <img 
-                            src={JovanGlint}
+                            src={blossom}
                             alt="got my eyes on you"
                             className="lgw-[80%] ml-auto h-116 w-116 rounded-full drop-shadow-2xl hover:shadow-inner"
                         />

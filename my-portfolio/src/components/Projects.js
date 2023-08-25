@@ -1,16 +1,45 @@
 import React from "react";
-import SelfReflection from "../assets/selfReflection.png";
-import KidIcarus from "../assets/KidIcarus_SS.png";
-import Tusk from "../assets/promoTusk_v2.png";
+import SelfReflection from "../assets/selfReflection.webp";
+import KidIcarus from "../assets/KidIcarus_SS.webp";
+import Tusk from "../assets/promoTusk_v2.webp";
 import Unreal from "../assets/jmk555_FP_Sequence.mp4";
-import sciRECT from "../assets/sciRECT.png";
-import OESPage from "../assets/OESPage.jpg";
+import sciRECT from "../assets/sciRECT.webp";
+import OESPage from "../assets/OESPage.webp";
 import MinePig from "../assets/MinePig_Anim2_1.mp4";
-import Bowser from "../assets/DragonDance.png";
+import Bowser from "../assets/DragonDance.webp";
+import Calcutone from "../assets/Calcutone.webp";
 
 function Projects() {
     
     const projects = [
+        {
+            img: Calcutone,
+            title: "Daily UI Project",
+            desc: "My portfolio of graphics made as part of the Daily UI challenge.",
+            live: "https://www.artstation.com/jovial/albums/9468004",
+            isVideo: false
+        },
+        {
+            img: Bowser,
+            title: "DGA Graphics",
+            desc: "A sample of graphics made for the Drexel Gaming Association as a Marketing Officer.",
+            live: "https://www.artstation.com/artwork/6NPRmO",
+            isVideo: false
+        },
+        {
+            img: OESPage,
+            title: "OES UI/UX Prototype",
+            desc: "UI/UX project for an Upwork Client using their branding guidelines.",
+            live: "https://www.artstation.com/artwork/BXnrO4",
+            isVideo: false
+        },
+        {
+            img: sciRECT,
+            title: "sciRECT",
+            desc: "UI/UX Project for a lab sciences VR/Web application. This platform is meant for use by students and educators.",
+            live: "https://www.artstation.com/artwork/el9BrG",
+            isVideo: false
+        },
         {
             img: SelfReflection,
             title: "Self-Reflection",
@@ -33,25 +62,11 @@ function Projects() {
             isVideo: true
         },
         {
-            img: sciRECT,
-            title: "sciRECT",
-            desc: "UI/UX Project for a lab sciences VR/Web application. This platform is meant for use by students and educators.",
-            live: "https://www.artstation.com/artwork/el9BrG",
-            isVideo: false
-        },
-        {
             img: MinePig,
             title: "Minecraft Art Gallery Animation",
             desc: "Animation created and rendered in Maya. Upscaling and creation of textures done in Substance Painter.",
             live: "https://www.artstation.com/artwork/JvkaxR",
             isVideo: true
-        },
-        {
-            img: OESPage,
-            title: "OES UI/UX Prototype",
-            desc: "UI/UX project for an Upwork Client using their branding guidelines.",
-            live: "https://www.artstation.com/artwork/BXnrO4",
-            isVideo: false
         },
         {
             img: KidIcarus,
@@ -60,13 +75,7 @@ function Projects() {
             live: "https://jayikarus.itch.io/project-icarus",
             isVideo: false
         },
-        {
-            img: Bowser,
-            title: "DGA Graphics",
-            desc: "A sample of graphics made for the Drexel Gaming Association as a Marketing Officer.",
-            live: "https://www.artstation.com/artwork/6NPRmO",
-            isVideo: false
-        },
+        
     ];
 
     return (
@@ -77,7 +86,7 @@ function Projects() {
                     Projects
                 </h2>
                 <p className="pb-10 mx-auto md:w-4/6 mb-8 lg:mb-16 font-light text-center text-stone-300">
-                    Most of my recent projects have been games built in Unity, models, textures, and animations built using Maya and Substance Painter as well as scenes created in Unreal.
+                    On top of my UI/UX work, many of my recent projects have been games built in Unity and 3D models, textures, and animations built using Maya and Substance Painter. My work also includes real-time visualizations in Unreal 5.
                 </p>
                 {/* </div> */}
                 {/* <div className="about-img"></div> */}

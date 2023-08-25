@@ -129,7 +129,7 @@ function Skills() {
                 {mySkills.map((skill, i) => {
                     const Icon = skill.img;
                     return (
-                        <div className="mx-auto col-span-1 h-[160px] w-auto flex flex-col group drop-shadow-xl shadow-stone-800 " key={i}>
+                        <div className="mx-auto col-span-1 h-[160px] w-auto flex flex-col group hover:opacity-100 drop-shadow-xl shadow-stone-800 " key={i}>
                             <motion.a whileHover={{scale: 1.2}}
                                 className="mx-auto h-screen text-accent items-center hover:text-stone-200 opacity-100 group-hover:opacity-100 relative duration-500"
                             >
