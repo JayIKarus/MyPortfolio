@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "./static/css/main.f8895de5.css",
-    "main.js": "./static/js/main.4093039f.js",
+    "main.js": "./static/js/main.6bf035ad.js",
     "static/js/787.128fc6e9.chunk.js": "./static/js/787.128fc6e9.chunk.js",
     "static/media/jmk555_FP_Sequence.mp4": "./static/media/jmk555_FP_Sequence.201340d07c1b35481cbe.mp4",
     "static/media/MinePig_Anim2_1.mp4": "./static/media/MinePig_Anim2_1.e1a68147c7b65a54113d.mp4",
     "static/media/portfolioBackground.webp": "./static/media/portfolioBackground.bc4f316350afeb0bc51f.webp",
     "static/media/JovanBlossomPFP.webp": "./static/media/JovanBlossomPFP.79cd1f22d1d0a727671f.webp",
-    "static/media/Jovan_Resume_071823.pdf": "./static/media/Jovan_Resume_071823.cb9a5740da9494da779d.pdf",
+    "static/media/Jovan_Resume_UIUX_061224.pdf": "./static/media/Jovan_Resume_UIUX_061224.701559de1850e5c776f3.pdf",
     "static/media/promoTusk_v2.webp": "./static/media/promoTusk_v2.30a995bcab02293a709e.webp",
     "static/media/selfReflection.webp": "./static/media/selfReflection.24e99cdd079350b9e4f2.webp",
     "static/media/FI_Logo.svg": "./static/media/FI_Logo.85dc519234416fb2e8ef47fa28e36bd0.svg",
@@ -20,11 +20,11 @@
     "static/media/yes.webp": "./static/media/yes.d6a6eeffc8edb4aa6e0a.webp",
     "index.html": "./index.html",
     "main.f8895de5.css.map": "./static/css/main.f8895de5.css.map",
-    "main.4093039f.js.map": "./static/js/main.4093039f.js.map",
+    "main.6bf035ad.js.map": "./static/js/main.6bf035ad.js.map",
     "787.128fc6e9.chunk.js.map": "./static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f8895de5.css",
-    "static/js/main.4093039f.js"
+    "static/js/main.6bf035ad.js"
   ]
 }
