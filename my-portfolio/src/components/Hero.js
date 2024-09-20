@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 // import JovanGlint from "../assets/JovanGlint_NoBack.webp";
-import myResume from "../assets/Jovan_Resume_071823.pdf";
+import myResume from "../assets/Jovan_Resume_UIUX_061224.pdf";
 import blossom from "../assets/JovanBlossomPFP.webp";
 
 import {
